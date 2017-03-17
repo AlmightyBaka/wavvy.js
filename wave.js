@@ -42,7 +42,7 @@ function wave_init(canvasWidth) {
         segments: segments,
         fullySelected: false, //debug
         strokeWidth: 10,
-        strokeColor: '#FFFFFF' //#50EDB2, FBA358
+        strokeColor: '#FFFFFF'
     });
 
     // render only one segment and then copy it over to make a full wave, increasing perfomance
@@ -56,17 +56,6 @@ function wave_init(canvasWidth) {
         }
     }
 }
-
-//function onMouseMove(event) {
-//	var point = event.point.clone();
-
-//	var delta = point - view.center;
-//	for (var i = 0; i < path.segments.length - 1; i++) {
-//		var curve = path.curves[i];
-//		curve.handle1.y = curve.handle2.y = delta.y * (i % 2 ? 1 : -1);	
-//	}
-//	return false; // Prevent touch scrolling
-//}
 
 var tweenY = 0;
 var tween = new TWEEN.Tween({ x: 0, y: canvasVerticalCenter - wavesHeight})

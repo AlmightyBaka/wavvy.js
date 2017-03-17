@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wavvy.js demo</title>
+    <style>
+    body {
+        background: #e2e1e0;
+        text-align: center;
+    }
+
+    div {
+        background: #31B5FC;
+        border-radius: 2px;
+        display: inline-block;
+        height: 500px;
+        margin: 1rem;
+        position: relative;
+        width: 900px;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <canvas id="waves" width="900px" height="500px"></canvas>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.10.3/paper-full.min.js"></script>
+    <script src="./wave.js" type="text/paperscript" canvas="waves"></script>
+</body>
+</html>
