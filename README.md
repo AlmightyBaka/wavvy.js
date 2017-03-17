@@ -7,20 +7,20 @@ A simple library to draw wavvy waves on HTML canvas using [paper.js](http://pape
 
 Include a canvas in your page:
 
-`
+```
 <canvas id="waves"></canvas>
-`
+```
 
 Include jQuery, paper.js, and tween.js:
 
-`
+```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.10.3/paper-core.js"></script>
-`
+```
 
 Include wavvy.js, with your canvas's id and type="text/paperscript":
 
-`
+```
 <script src="wave.js" type="text/paperscript" canvas="waves"></script>
-`
+```
